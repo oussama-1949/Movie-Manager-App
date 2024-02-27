@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile</title>
+    <link rel="stylesheet" href="/profile.css">
+</head>
+<body>
+    <h1>My Watched Movies</h1>
+    <ul>
+        <% movies.forEach(movie => { %>
+            <li>
+                <div class="movie-info">
+                    <% if (movie.image) { %>
+                        <!-- Render the image if available -->
+                        <img src="/<%= movie.image %>" alt="<%= movie.title %>">
+                    <% } %>
+                    <div class="details">
+                        <div class="title"><%= movie.title %></div>
+                        <div class="actors">Actors: <%= movie.actors %></div>
+                        <div class="year">Year: <%= movie.year %></div>
+                        <div class="category">Category: <%= movie.category %></div>
+                        <div class="actions">
+                            <a href="/add">Add</a>
+                            <a href="/update/<%= movie.id %>">Update</a>
+                            <a href="/delete/<%= movie.id %>">Delete</a>
+                            <a href="/view/<%= movie.id %>">View</a>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <!-- Form for uploading a new image -->
+            <!-- <form method="post" enctype="multipart/form-data" action="/upload">
+                <input type="file" name="image">
+                <button type="submit">Upload Image</button>
+            </form> -->
+            <hr>
+        <% }) %>
+    </ul>
+</body>
+</html>

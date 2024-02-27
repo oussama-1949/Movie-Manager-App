@@ -1,0 +1,87 @@
+/* profile.css */
+body {
+    font-family: Arial, sans-serif; /* Change the font */
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-top: 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px; /* Add margin between list items */
+    border-radius: 5px;
+}
+
+.movie-info {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-column-gap: 20px;
+}
+
+img {
+    max-width: 150px; /* Adjust as needed */
+    height: auto;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    font-weight: bold; /* Make the title bold */
+    margin-bottom: 10px; /* Add space between title and other details */
+}
+
+.actors,
+.year,
+.category {
+    margin-bottom: 5px; /* Add space between each detail */
+}
+
+.actions {
+    display: flex;
+    flex-wrap: wrap; /* Allow actions to wrap if they exceed width */
+}
+
+.actions a {
+    color: #fff;
+    background-color: #333;
+    padding: 8px 12px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 5px; /* Add margin around action links */
+}
+
+.actions a:hover {
+    background-color: #0056b3;
+}
+
+/* Medium thickness hr line */
+hr {
+    border: none;
+    height: 20px; /* Adjust the height to add space between lines */
+    background-color: transparent; /* Set background color to transparent */
+    width: 98%;
+    margin: 20px auto;
+}
+
+/* Add space between lines */
+hr + ul {
+    margin-top: 20px;
+}

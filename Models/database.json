@@ -1,0 +1,111 @@
+{
+  "users": [
+    {
+      "id": "e50a",
+      "username": "oussama",
+      "email": "oussama@gmail.com",
+      "password": "oussama@gmail.com",
+      "authorId": "be438789-25d2-4bff-975c-54a80928aeb4"
+    },
+    {
+      "id": "57cd",
+      "username": "oussama",
+      "email": "ossamakotbi06@gmail.com",
+      "password": "$2a$10$0t36FfpvIlGgoJYkntVYVe4jZePawenTSv8/KvLg/vB0qT2WUO8VO",
+      "authorId": "46fc02d6-ef8e-43a9-9aab-2e79e8793622"
+    },
+    {
+      "id": "603d",
+      "username": "oussama",
+      "email": "ossamakotbi06@gmail.com",
+      "password": "$2a$10$p9SjC51TePJ7mxNLvhDokutRoX11eFjN/B2qiymE/6GGfrfAWKN5K",
+      "authorId": "9a893248-c2af-49f6-ac8e-a5a041ac55b7"
+    },
+    {
+      "id": "5a29",
+      "username": "issam",
+      "email": "issam@gmail.com",
+      "password": "$2a$10$P17u5Cf5TJvNwQErZKs9ceozmTg4att2MTM.pHd.c4K/xiGh5zg/.",
+      "authorId": "db76fc11-4736-4b23-be20-60c594664913"
+    },
+    {
+      "id": "3577",
+      "username": "anouar",
+      "email": "anouarbahou@gmail.com",
+      "password": "$2a$10$FnOobLV5KmcbLCv5Fxrji..TEVVuZnAvsJe3cUsvt0zAYW2sdoEsK",
+      "authorId": "1ec642c5-ceb7-4ebe-9c66-9a46e41e8cdb"
+    },
+    {
+      "id": "63c1",
+      "username": "aziz",
+      "email": "aziz@gmail.com",
+      "password": "$2a$10$Tm0IlDc6BJIm4IZFbs7U/.WSLS.yuoVil1iDuTGo5WRFm7TiGCZ0q",
+      "authorId": "13e09abb-5690-44ed-8cbe-84f562ceaef7"
+    }
+  ],
+  "movies": [
+    {
+      "title": "The Godfather",
+      "director": "Francis Ford Coppola",
+      "actors": [
+        "Marlon Brando",
+        "Al Pacino",
+        "James Caan"
+      ],
+      "year": 1972,
+      "category": "Crime",
+      "id": "1c0f",
+      "image": "1708936545635_the-godfather.jpg",
+      "authorId": "be438789-25d2-4bff-975c-54a80928aeb4"
+    },
+    {
+      "title": "Inception",
+      "director": "Christopher Nolan",
+      "actors": [
+        "Leonardo DiCaprio",
+        "Joseph Gordon-Levitt",
+        "Ellen Page"
+      ],
+      "year": 2010,
+      "category": "Sci-Fi",
+      "id": "c199",
+      "image": "1708936828795_inception.jpg"
+    },
+    {
+      "id": "8e67",
+      "title": " The Shawshank Redemption",
+      "director": " Frank Darabont",
+      "actors": "Tim Robbins ,  Morgan Freeman  , Bob Gunton",
+      "year": "1994",
+      "category": "Drama",
+      "image": "1708943355847_the-shawshank-redemption.jpg"
+    },
+    {
+      "id": "d7ad",
+      "title": "Silicon Valley",
+      "director": "Jeff Cardoni",
+      "actors": " Brian Merken; Al Levine",
+      "year": "2015",
+      "category": "Drama - Comedy - it ",
+      "image": "1709048044639_MV5BM2Q5YjNjZWMtYThmYy00N2ZjLWE2NDctNmZjMmZjYWE2NjEwXkEyXkFqcGdeQXVyMTAzMDM4MjM0._V1_.jpg"
+    },
+    {
+      "id": "e59b",
+      "title": "Interstellar",
+      "director": "Christopher nolan",
+      "actors": "mccaun holey",
+      "year": "2015",
+      "category": "space",
+      "image": "1709048201441_MV5BZjdkOTU3MDktN2IxOS00OGEyLWFmMjktY2FiMmZkNWIyODZiXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg"
+    },
+    {
+      "id": "99c7",
+      "title": "Mr.nobody",
+      "director": " Jaco Van Dormael",
+      "actors": "Pathé, Warner Bros., The Weinstein Company",
+      "year": "2009",
+      "category": "Science fiction",
+      "image": "1709048294118_MV5BMTg4ODkzMDQ3Nl5BMl5BanBnXkFtZTgwNTEwMTkxMDE@._V1_.jpg"
+    }
+  ]
+}

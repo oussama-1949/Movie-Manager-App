@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"  href="/update.css" >
+
+    <title>Update Movie </title>
+
+</head>
+<body>
+    <h1>Edit Movie <%= movies.title  %></h1>
+    <form action="/update/<%= movies.id%>" method="post" >
+        <input type="text" name="title" placeholder="Title" value="<%= movies.title  %>">
+        <input type="text" name="director" placeholder="Director" value="<%= movies.director %>">
+        <input type="text" name="actors" placeholder="Actors" value="<%= movies.actors %>">
+        <input type="text" name="category" placeholder="Category" value="<%= movies.category%>">
+        <input type="text" name="year" placeholder="Year" value="<%= movies.year %>">
+
+        <button type="submit" >Update</button>
+        <a  href="/" >Back</a>
+
+
+
+
+
+
+    </form>
+
+
+</body>
+</html>
